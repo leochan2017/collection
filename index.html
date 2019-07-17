@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" type="text/css" href="./fullpagejs/dist/fullpage.min.css" />
+    <script src="./fullpagejs/dist/fullpage.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./main.css" />
+    <title>Leo's Collection</title>
+  </head>
+  <body>
+    <div id="fullpage" class="fullpage">
+      <div class="section one">第一页</div>
+      <div class="section two">第二页</div>
+      <div class="section three">第三页</div>
+      <div class="section four">第四页</div>
+    </div>
+    <script>
+      ;(function() {
+        new fullpage('#fullpage', {
+          // 定义是使用“自动”滚动还是“正常”滚动。 它同时也影响了平板电脑和移动电话中浏览器/设备窗口部分适配的方式。
+          autoScrolling: true,
+          // 定义是否使用鼠标滚轮或触控板在滑块内水平滑动
+          scrollHorizontally: true,
+          // 显示一个由小圆圈组成的导航栏
+          navigation: true,
+          // 定义滚动到最后一节是否应该滚动到第一个。
+          loopBottom: true,
+          // 启用或禁用鼠标或手指拖动和滑动部分和幻灯片
+          dragAndMove: true
+        })
+      })()
+    </script>
+  </body>
+</html>

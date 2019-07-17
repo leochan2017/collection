@@ -1,0 +1,21 @@
+.fullpage {
+  width: 100%;
+  text-align: center;
+  color: #ffffff;
+}
+
+.section.one {
+  background-color: turquoise;
+}
+
+.section.two {
+  background-color: blueviolet;
+}
+
+.section.three {
+  background-color: burlywood;
+}
+
+.section.four {
+  background-color: tomato;
+}
